@@ -28,6 +28,8 @@ UE5.9 和 Blender 已完成真实桥接验证；枪械拆解/组装 proof 已完
 
 下载并运行 [NexForge-Setup-3.0.1.exe](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-Setup-3.0.1.exe)。程序安装到 `%LOCALAPPDATA%\\NexForge`，并创建桌面快捷方式。卸载请前往 Windows“设置 → 应用 → 已安装的应用”中选择 NexForge。
 
+源码包：[NexForge-3.0.1-Source.zip](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Source.zip)
+
 ---
 
 ## English
@@ -61,3 +63,5 @@ UE5.9 and Blender bridge connectivity has been verified with a real gun disassem
 ## Installation
 
 Download and run [NexForge-Setup-3.0.1.exe](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-Setup-3.0.1.exe). The app is installed to `%LOCALAPPDATA%\\NexForge` and a desktop shortcut is created. Uninstall NexForge from Windows Settings → Apps → Installed apps.
+
+Source archive: [NexForge-3.0.1-Source.zip](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Source.zip)

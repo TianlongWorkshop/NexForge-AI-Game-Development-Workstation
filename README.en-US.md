@@ -27,3 +27,5 @@ UE5.9 and Blender bridge connectivity has been verified with a real gun disassem
 ## Installation
 
 Download and run [NexForge-Setup-3.0.1.exe](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-Setup-3.0.1.exe). The app is installed to `%LOCALAPPDATA%\\NexForge` and a desktop shortcut is created. Uninstall NexForge from Windows Settings → Apps → Installed apps.
+
+Source archive: [NexForge-3.0.1-Source.zip](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Source.zip)
