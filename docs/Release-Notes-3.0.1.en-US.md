@@ -1,27 +1,28 @@
-# NexForge · 连接锻造 3.0.1
+# NexForge · 连接锻造 3.0.1 — 2026-11-28 Update
 
-NexForge is a local-first AI game development workstation. It brings game design, asset management, animation, materials, Blender, and Unreal Engine workflows into a traceable visual-canvas system.
+This update publishes a Windows x64 installer supplied separately by the maintainer. The product version remains 3.0.1.
 
-## Design idea
+## Download and verify
 
-NexForge does not treat AI as an unrestricted generator. Human design, real assets, visual relationships, and professional-tool bridges form a reusable production flow. The user expresses missions, characters, factions, maps, dialogue, items, and production relationships on canvases. The Agent then reads an explicit scope, proposes a plan, calls Blender/UE tools, and returns logs and diffs.
+- Installer: [NexForge-Setup-3.0.1-build-2026-11-28.exe](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-Setup-3.0.1-build-2026-11-28.exe) (81,322,488 bytes)
+- SHA-256: `4F89C8C3549DA30766C529BA749660C6E1163D1084255DFB51C0BBE9BFB9B3A3`
+- Checksum file: [SHA256-3.0.1-build-2026-11-28.txt](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/SHA256-3.0.1-build-2026-11-28.txt)
 
-## Recent updates
+The installer contains a publisher self-signed certificate; Authenticode chain verification on the publishing host did not trust it. SHA-256 confirms that a download matches this published file; it does not certify the publisher or the program's safety. This installer was not rebuilt or independently clean-installed during this publishing operation. The November 25 installation test report applies only to the earlier installer.
 
-- Design overview: missions, scene dialogue, characters, factions, relations, maps, locations/vehicles/collectibles, crafting, concepts, documents, calendar, parts, motion, materials, UE behavior, bugs, and development logs.
-- Relations: structured fields for characters, factions, locations, and relationship changes. Characters support name, protagonist/supporting/NPC type, faction, motivation, and asset references. Factions support name, emblem, motto, core attributes, allies, and enemies.
-- Scene dialogue: scene, speaker, emotion, line, camera, trigger, and event result.
-- Canvas: infinite canvas, zoom, pan, grid, contextual node templates, wires, marquee/multi-select, copy, delete, undo/redo, and board/list views.
-- Asset library: folder scanning, thumbnails, source paths, drag-to-node references, and project references.
-- Motion template library: FBX, BVH, GLB, and glTF import, thumbnails, clips, and skeleton checks.
-- AI assistant: API models, local Ollama/LM Studio, capability probes, and per-module routing.
-- Professional bridges: Blender Bridge and UE5.9 AIGW Bridge. Real writes require a ready bridge, an explicit scope, and human confirmation.
-- Design packs: `.aigw-design.json` structured import/export for modules, nodes, edges, asset references, and revisions.
+## Highlights
 
-## Testing and boundaries
+- Improved native UE asset type recognition, distinguishing motion assets from skeletons and animation Blueprints.
+- Added native motion-template indexing, hover playback, scrolling, and large-library improvements.
+- Simplified Blender / UE bridge installation and target selection.
+- Fixed motion classification, preview playback, rescanning, multi-window sessions, and connection-bar issues.
 
-UE5.9 and Blender bridge connectivity has been verified with a real gun disassembly/assembly proof. When no AI provider is configured, NexForge never pretends that an Agent ran. UE asset and level persistence follows editor safety rules and requires Save All/Save As inside UE.
+The final development regression record reports 60 application tests and 12 Python bridge tests passed; real connection and scene-read checks used UE 5.9 and Blender 4.2.2. These are not clean-machine installation tests of this installer. First-time UE motion previews require the owning project, bridge, preview skeletal mesh, and local Blender; not every asset has a preview.
 
-## Installation
+## Guides, source, and license
 
-Run `安装NexForge.cmd`. The app is installed to `%LOCALAPPDATA%\\NexForge` and a desktop shortcut is created. Run `卸载NexForge.cmd` to remove it.
+- [Feature update (bilingual)](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Feature-Update-Bilingual.md)
+- [Code changes and bug fixes (bilingual)](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Code-Changes-and-Bug-Fixes-Bilingual.md)
+- [Upgrade and usage guide (bilingual)](https://github.com/TianlongWorkshop/NexForge-AI-Game-Development-Workstation/releases/download/v3.0.1/NexForge-3.0.1-Upgrade-and-Usage-Guide-Bilingual.md)
+
+The public source ZIP is an earlier snapshot and does not include all code changes described for 2026-11-28; it is not represented as matching source for this installer. The application is marked `UNLICENSED`; public availability does not grant permission to freely copy, modify, or redistribute it.
